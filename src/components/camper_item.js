@@ -3,7 +3,7 @@ import Moment from 'react-moment';
 
 const CamperItem = ({ camper, rank}) => {
     return(
-        <div className='col-xs-3 animated bounceIn'>
+        <div className='col-xs-12 col-sm-6 col-md-4 col-lg-3 animated bounceIn'>
             <a href={`https://freecodecamp.com/${ camper.username }`} target='_blank'>
                 <div className='panel panel-default'>
                     <div className='rank'>
